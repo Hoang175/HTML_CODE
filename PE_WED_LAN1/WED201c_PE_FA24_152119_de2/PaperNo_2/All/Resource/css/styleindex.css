@@ -1,0 +1,266 @@
+/* *{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    width: 100%;
+    max-width: 1900px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.content-header-logo{
+    display: flex;
+    justify-content: center;
+    margin: 10px 0;
+}
+.content-header-logo img{
+    width: 150px;
+    height: 150px;
+}
+
+.nav{
+    display: flex;
+    margin-left: 30%;
+}
+
+.footer{
+    background-color:#10875A;
+    color: white;
+    text-align: center;
+    padding: 30px;
+}
+
+.item-left{
+    width: 90%;
+    margin-left: 10px;
+    border: 1px solid;
+}
+.item-left span img{
+    width: 10%;
+    height: auto;
+}
+
+.left-banner{
+    margin-left:20px ;
+    width: 30%;
+    height: 300px;
+   
+}
+.item{
+    width: 100%;
+    margin: 30px 0;
+    border: 2px solid aqua;
+}
+.item h4 span img{
+    width: 10%;
+    margin-left: -200px;
+}
+.item h4{
+    width: 100%;
+    background-color: #E1EDED;
+    padding: 0 30px;
+    text-align: center;
+    color: aqua;
+    font-size: 20px;
+    gap:30px
+}
+
+.title{
+    text-align: center;
+    color: aqua;
+}
+
+.img-product{
+    display: flex;
+    justify-content: space-around;
+}
+.img-product div h4{
+    margin: 20px 0;
+    text-align: center;
+}
+.img-product img{
+    border-radius: 70%;
+}
+
+.sugges-For-Your{
+    display: flex;
+    justify-content: space-around;
+}
+.sugges-For-Your h4{
+    text-align: center;
+    color: red;
+}
+.there-img{
+    display: flex;
+    gap: 10px;
+}
+.small-div div h4{
+ color: orange;
+}
+.small-div p {
+    text-align: justify;
+}
+.small-div div div{
+    background-color: #1DB8E8;
+    width: 25%;
+    color: white;
+    padding: 15px;
+    margin-left: 100px;
+}
+.small-div {
+    border: 3px solid aqua;
+} */
+
+/* body{
+    width: 100%;
+    max-width: 1900px;
+    margin: 0 auto;
+} */
+
+/* CSS cho logo */
+.content-logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 17px 0;
+}
+.content-header-logo{
+    width: 10%;
+}
+.content-header-logo img {
+    width: 100%;
+    object-fit: cover; /* Đảm bảo hình ảnh không bị méo */
+    border-radius: 50%; /* Tạo hình tròn */
+    border-radius: 30% / 50%; /* Làm ảnh thon dài */
+}
+/* Css navbar */
+.header-content-menu nav{
+    display: flex;
+    justify-content: center;
+}
+
+ /* Css left banner */
+ .item{
+    margin: 20px ;
+    border: 2px solid aqua;
+    width: 98%;
+    height: auto;
+    padding: 0;
+ }
+ .item h4{
+    width: 100%;
+    margin: 0 ;
+    background-color: #E1EDED;
+    padding: 0;
+ }
+
+ .item h4 span img{
+    width: 10%;
+    height: 45px;
+    margin-right: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 7px;
+ }
+ .item p{
+    margin-left: 30px;
+ }
+
+ /* Css right banner*/
+h2{
+    text-align: center;
+    color: aqua;
+}
+.model-in-year h4{
+    text-align: center;
+}
+.model-in-year img{
+    border: 3px solid white;
+    border-radius: 100%;
+}
+.there-img{
+    /* gap:20px */
+ display: flex;
+ justify-content: space-around;
+}
+
+.small-div div {
+ width: 100%;
+ /* margin-left: 30px; */
+
+}
+.small-div {
+    border: 1px solid aqua ;
+  /* margin: 0 10px; */
+  width: 32%;
+}
+
+.small-div div img{
+    width: 98%;
+}
+
+.right-banner{
+    margin-left: 20px;
+}
+
+.small-div div img{
+    width: 100%;
+    /* border-radius: 50%; Tạo hình tròn hoặc bầu dục */
+    object-fit: cover; /* Đảm bảo ảnh vừa khung mà không bị méo */
+    overflow: hidden; /* Ẩn các phần vượt ra ngoài khung */
+}
+
+.small-div div p {
+    text-align: justify;
+    margin:  10px;
+    /* font-size: 15px; */
+}
+.small-div div h4{
+    color: orange;
+    margin-left: 10px;          
+}
+.small-div div div{
+    background-color: #24B8E5;
+    padding: 10px;
+    color: whitesmoke;
+    width: 25%;
+    text-align: center;
+    margin-left: 100px;
+    /* margin: 30px 0; */
+    margin-bottom: 10px;
+    border-radius: 10px;
+}
+.deXuat h4{
+ text-align: center;
+ color: red;
+}
+.deXuat{
+    margin-top: 20px;
+}
+.footer{
+    background-color: #10875A;
+    padding: 30px;
+    
+}
+.footer div  {
+    text-align: center;
+    color: whitesmoke;
+}
+
+@media screen and (max-width: 767.98px) {
+    .navbar-toggle {
+        position: relative;
+        float: right;
+        padding: 9px 10px;
+        margin-top: 8px;
+        margin-right: 15px;
+        margin-bottom: 8px;
+        background-color: transparent;
+        background-image: none;
+        border: 1px solid transparent;
+        border-radius: 4px;
+        margin-left: 654px;
+    }
+}

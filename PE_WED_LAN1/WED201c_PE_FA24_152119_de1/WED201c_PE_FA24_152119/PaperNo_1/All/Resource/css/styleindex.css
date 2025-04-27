@@ -1,0 +1,122 @@
+body{
+    width: 100%;
+    max-width: 1900px;
+   margin-left: auto;
+   margin-right: auto;
+}
+.content-logo img {
+    text-align: center;
+    margin: 20px;
+    /* padding: 20px;    */
+    width: 25%;
+    /* height: 100px; */
+}
+.content-header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content-contact{
+    margin-left: 200px;
+}
+
+.cont-seacrh{
+    width: 100%;
+    margin-left: 500px;
+}
+
+.lemenu{
+    display: flex;
+    justify-content: center;
+}
+
+.Mkt h4{
+    width: 100%;
+    background-color: #E1EDED;
+    height: 50px;
+    padding: 0;
+    margin-top: 0;
+}
+.Mkt h4 span img{
+    width: 7%;
+    margin: 10px 20px 8px 4px;
+}
+.Mkt{
+    border: 2px solid aqua;
+    margin: 10px 0px 10px;
+}
+.banner-left{
+    margin-left: 10px;
+}
+.first-banner-right{
+    width: 100%;
+}
+.first-banner-right img{
+    width: 99%;
+}
+
+.content-title{
+    text-align: center;
+    color: aqua;
+    border: 2px solid grey;
+    width: 99%;
+    margin: 20px 0;
+    padding: 5px;
+    box-shadow: 0 0 10px 4px gray;
+}
+
+.img-first-tour img{
+    width: 100%;
+    height: 250px;
+    margin: 10px 0;
+}
+
+.text-first-tour h2{
+    color: aqua;
+}
+.text-first-tour p{
+    text-align: justify;
+}
+.text-first-tour h4{
+    color: orange;
+}
+.first-tour{
+    border: 2px solid gray;
+    box-shadow: 0 0 5px 4px gray;
+    width: 99%;
+    margin: 10px 0;
+}
+
+.text-first-tour div{
+    background-color: #16AEE4;
+    text-align: center;
+    width: 15%;
+    white-space: nowrap; /* Không xuống dòng */
+    color: whitesmoke;
+    padding: 15px 0;
+    margin-left: 500px;
+    margin-bottom: 15px;
+    border-radius: 20px;
+}
+.second-tour{
+    border: 2px solid gray;
+    box-shadow: 0 0 5px 4px gray;
+    width: 99%;
+    margin: 20px 0;
+}
+.footer{
+    background-color: #0EC0C4;
+}
+.footer div {
+    text-align: center;
+    color: whitesmoke;
+    padding: 15px 0;
+}
+
+@media screen and (max-width: 767.98px) {
+    button, select {
+        text-transform: none;
+        margin-left: 639px;
+    }
+}

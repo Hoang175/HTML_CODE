@@ -1,0 +1,199 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 98%;
+    max-width: 1700px;
+    margin-right: auto;
+    margin-left: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.logo {
+    text-align: center;
+    margin: 5px 0;
+}
+
+.logo img {
+    width: 150px;
+    height: 160px;
+}
+
+.menu ul {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+.menu {
+    margin-left: -15px;
+    margin-right: -15px;
+}
+
+.content {
+    display: flex;
+}
+
+.content-left {
+    width: 300px;
+}
+
+.content-function {
+    text-align: left;
+    border: 1px solid #25ace3;
+    width: 250px;
+    margin: 20px 30px;
+
+}
+
+.content-function h4 {
+    background-color: #E1EDED;
+    width: 100%;
+    margin: auto;
+    padding: 5px 10px;
+    color: #4bbbe8;
+}
+
+.content-function img {
+    width: 15%;
+}
+
+.content-function p {
+    text-align: left;
+    margin-left: 15px;
+}
+
+h2 {
+    text-align: center;
+    color: #4bbbe8;
+    margin: 30px 0;
+}
+
+.item {
+    min-height: 1px;
+    float: left;
+    width: 25%;
+    text-align: center;
+}
+
+.item img {
+    border-radius: 50%;
+}
+
+.best-seller-item {
+    min-height: 1px;
+    float: left;
+    width: 33%;
+    text-align: center;
+    border: 1px solid #25ace3;
+    object-fit: contain;
+    width: 350px;
+    margin: 10px 15px;
+}
+
+.best-seller-item img {
+    object-fit: contain;
+    width: 100%;
+}
+
+.best-seller-item p {
+    text-align: justify;
+    padding: 0 10px;
+    font-size: 15px;
+    margin-top: 20px;
+}
+
+.best-seller-item h4 {
+    color: orange;
+    text-align: justify;
+    padding: 0 10px;
+}
+
+.buy {
+    text-align: center;
+    padding: 5px 10px;
+    padding-top: 10px;
+    color: white;
+    background-color: #47afe3;
+    font-size: 15px;
+    border: none;
+    border-radius: 5px;
+    width: 90px;
+    height: 40px;
+    cursor: pointer;
+    margin: 30px 0 10px 180px;
+}
+
+.suggested-item {
+    min-height: 1px;
+    float: left;
+    width: 25%;
+    text-align: center;
+}
+
+.suggested-item h4 {
+    color: orange;
+}
+
+.footer {
+    background-color: #108853;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    font-weight: 600;
+    margin-top: 20px;
+}
+
+@media screen and (max-width: 768px) {
+    .header {
+        flex-direction: column;
+        align-items: center;
+        margin: 0 auto;
+        padding: 0;
+    }
+
+    .logo {
+        width: 100%;
+        text-align: center;
+        padding-bottom: 10px;
+    }
+
+    .logo img {
+        height: 120px;
+    }
+
+    .content {
+        display: block;
+    }
+
+    .content-function {
+        width: 320px;
+        margin: 15px 20px;
+    }
+
+    .item {
+        width: 100%;
+        margin: 10px 0;
+    }
+
+    .best-seller-item {
+        margin: 10px auto;
+    }
+
+    .suggested-item {
+        width: 100%;
+        float: none;
+    }
+
+    .suggested-item img {
+        width: 340px;
+    }
+
+    .footer {
+        padding: auto 0;
+    }
+}

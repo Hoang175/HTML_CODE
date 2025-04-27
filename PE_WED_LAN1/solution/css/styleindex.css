@@ -1,0 +1,170 @@
+body {
+    max-width: 1900px;
+    margin-left: 0;
+    margin-right: 0;
+    overflow-x: hidden;
+}
+
+.logo img {
+    width: 15%;
+    margin: 10px 20px;
+    object-fit: cover;
+}
+
+.search div {
+    margin-top: 10%;
+    margin-right: 10px;
+
+}
+
+.search div input {
+    width: 100%;
+}
+
+.navbar {
+    display: flex;
+    justify-content: center;
+    margin: 0 -15px;
+}
+
+.title-Best-margin {
+    /* margin-bottom: 20px; */
+    margin: 30px 0;
+
+}
+
+.title {
+    text-align: center;
+    color: #7AD6DE;
+}
+
+.left-img-xFore img {
+    width: 100%;
+    object-fit: cover;
+}
+
+.img-car img {
+    width: 99%;
+    object-fit: cover;
+}
+
+.text-car {
+    margin-top: 10px;
+    align-items: justify;
+    font-size: 17px;
+}
+
+.Best-seller {
+    display: flex;
+    justify-content: center;
+
+}
+
+.product-car {
+    width: 20%;
+    margin: 0 20px;
+}
+
+.product-car img {
+    width: 100%;
+    object-fit: cover;
+}
+
+.product-car h3 {
+    color: #ef8d66;
+    text-align: center;
+
+}
+
+.product-car h4 {
+    color: #769ce9;
+    text-align: center;
+}
+
+.product-car p {
+    text-align: justify;
+}
+
+.img-Store h1 {
+    text-align: center;
+    color: #7AD6DE;
+}
+
+.img-Store img {
+    width: 97%;
+    margin-left: 50px;
+    /* margin-right: 20px; */
+    object-fit: cover;
+}
+
+.from-Store h1 {
+    color: #7AD6DE;
+    text-align: center;
+}
+
+.form-control {
+    width: 90%;
+}
+
+.from-margin {
+    margin-left: 10%;
+}
+
+.footer {
+    background-color: #0EC0C3;
+    text-align: center;
+    color: whitesmoke;
+    padding: 20px;
+    margin-top: 10px;
+}
+
+@media screen and (max-width: 767.98px) {
+
+    body {
+        max-width: 767.98px;
+        margin-left: 0;
+        margin-right: 0;
+        overflow-x: hidden;
+    }
+    
+    .logo img {
+        width: 15%;
+        margin: 10px 20px;
+        margin-left: 47%;
+        margin-bottom: -50px;
+    }
+
+    .navbar-toggle {
+        position: relative;
+        float: right;
+        padding: 9px 10px;
+        margin-top: 8px;
+        margin-right: 15px;
+        margin-bottom: 8px;
+        background-color: transparent;
+        background-image: none;
+        border: 1px solid transparent;
+        border-radius: 4px;
+        margin-left: 716px;
+    }
+    .left-img-xFore img {
+        width: 100%;
+        object-fit: cover;
+        margin: 20px 0;
+    }
+    .img-car img {
+        width: 99%;
+        object-fit: cover;
+        margin: 10px 0;
+    }
+    .Best-seller {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+    
+    .product-car {
+        width: 90%;
+        margin: 0 20px;
+    }
+}

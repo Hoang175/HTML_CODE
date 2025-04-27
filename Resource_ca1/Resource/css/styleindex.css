@@ -1,0 +1,216 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.header-logo {
+    display: flex;
+    justify-content: center;
+}
+
+.header-logo img {
+    width: 150px;
+    height: 150px;
+}
+
+.navbar-menu div ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    gap: 70px;
+}
+
+.navbar-menu div ul li a {
+    text-decoration: none;
+    color: aliceblue;
+    font-weight: bold;
+}
+
+.navbar-menu {
+    background-color: #1283BB;
+    padding: 15px 0;
+    margin-bottom: 10px;
+}
+
+.banner-01 {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.banner-01 img {
+    width: 50%;
+    height: 450px;
+}
+
+.title {
+    text-align: center;
+    color: aqua;
+    margin: 30px 0;
+}
+
+.Mango-Beach {
+    display: flex;
+}
+
+.Mango-Beach-left {
+    width: 49%;
+}
+
+.Mango-Beach-left img {
+    width: 100%;
+}
+
+.Mango-Beach-right {
+    width: 50%;
+    margin-left: 15px;
+}
+
+.small-img {
+    display: flex;
+    gap: 10px;
+}
+
+.small-img img {
+    width: 50%;
+    height: 220px;
+}
+
+.Mango-Beach-right h2 {
+    text-align: center;
+    color: orange;
+    padding: 18px 0;
+}
+
+.Mango-Beach-right p {
+    font-size: 18px;
+    width: 90%;
+    text-align: justify;
+    margin-right: 10px;
+}
+
+.Book-now a {
+    text-decoration: none;
+    color: white;
+}
+
+.Book-now {
+    background-color: #27a2df;
+    width: 14%;
+    text-align: center;
+    padding: 10px;
+    margin-top: 20px;
+    margin-left: 580px;
+}
+
+.footer {
+    background-color: #1283BB;
+}
+
+.footer div {
+    padding: 40px;
+    color: white;
+    margin-left: 500px;
+}
+
+.footer div p {
+    margin: 1em 0;
+    /* Thêm khoảng cách giữa các dòng */
+}
+
+.Resort_Villa {
+    display: flex;
+    gap: 10px;
+    margin: 20px 0;
+}
+
+.img_villa {
+    width: 24%;
+}
+
+.img_villa img {
+    width: 100%;
+}
+
+.img_villa div {
+   color: white;
+   margin-top: -30px;
+   text-align: center;
+/*   background-color: rgba(255, 255, 255, 0.5);*/ /* Nền trắng với độ trong suốt 50% */
+ background-color: antiquewhite;
+}
+
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #f4f4f4;
+}
+
+.content-title {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.title {
+    font-size: 2rem;
+    color: #0093c4;
+}
+
+/* Wrapper for Images and Content */
+.content-wrapper {
+    display: flex;
+    max-width: 1200px;
+    margin: 0 auto;
+    gap: 20px;
+    padding: 20px;
+}
+
+/* Images Section */
+.images-section {
+    flex: 3;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.image-row {
+    display: flex;
+    gap: 10px;
+}
+
+.image-row img {
+    width: 100%;
+    height: auto;
+    flex: 1;
+    object-fit: cover;
+}
+
+/* Content Section */
+.content-section {
+    flex: 2;
+    background-color: #444;
+    color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.content-section h2 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    border-bottom: 2px solid #0093c4;
+    padding-bottom: 5px;
+}
+
+.content-section ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.content-section ul li {
+    margin: 10px 0;
+    line-height: 1.5;
+}

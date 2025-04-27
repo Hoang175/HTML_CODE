@@ -1,0 +1,157 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.container-fluid{
+    padding: 0px;
+}
+.logo{
+    width:10%;
+}
+.logo img{
+    width: 100%;
+    height: 100px;
+    margin: 10px;
+}
+
+.search{
+    margin-left: 300px;
+}
+.search div{
+    margin-top: 100px;
+}
+
+.sologin{
+    color: orange;
+    margin-top: 70px;
+    font-size: 18pc;
+    font-style: italic;
+}
+#bs-example-navbar-collapse-1{
+    display: flex;
+   margin-left: 33%;
+}
+.title h1{
+    text-align: center;
+    color: aqua;
+}
+.title{
+    margin: 30px 0;
+}
+/* .detail-Product{
+    display: flex;
+}
+*/
+.left-img img{
+    width: 100%;
+    margin-left: 20px;
+    
+}
+.left-img p {
+    margin: 20px;
+    text-align: justify;
+    font-size: 16px;
+}
+.right-text{
+    margin-left: 2%;
+    margin-top: 20px;
+}
+.chu{
+    text-align: center;
+    color: orange;
+}
+.right-text p {
+        font-size: 16px;
+        text-align: justify;
+      
+}
+
+.right-text u {
+    text-decoration: none;
+    color: aqua;
+    font-size: 16px;
+    list-style: circle;
+    text-align: justify;
+}
+.taiNghe div h3{
+    color: red;
+}
+.taiNghe p{
+    font-size: 16px;
+    text-align: justify;
+}
+
+.anhTaiNghe{
+    width: 50%;
+}
+.anhTaiNghe img{
+    width: 60%;
+}
+.best-seller h1{
+    text-align: center;
+    color: aqua;
+}
+
+.head-row-phone{
+    margin-top: 50px;
+}
+
+.left-banner h3{
+ text-align: center;
+ color: orange;
+}
+
+.left-banner div u {
+    text-decoration: none;
+    color: aqua;
+    font-size: 16px;
+    text-align: justify;
+    padding: auto;
+    list-style: circle;
+}
+
+.left-banner div{
+    margin-left: 50px;
+}
+.left-banner{
+    box-shadow: 3px 3px 5px 0px #666;
+}
+
+.left-banner div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 90%;
+}
+.left-banner div img{
+    display: flex;
+    /* margin: 0 90px; */
+    justify-content: center;
+   width:80%;
+}
+
+.right-banner-small{
+    /* border: 2px solid black; */
+    box-shadow: 3px 3px 5px 0px #666;
+
+    width: 50%;
+    margin: 10px 0;
+}
+
+.right-banner-small img{
+    width: 80%;
+}
+.right-banner-small div h3{
+    text-align: center;
+    color: orange;
+}
+
+.footer {
+    margin-top: 30px ;
+    background-color: aqua;
+    text-align: center;
+    color: white;
+    padding: 10px 0 ;
+}

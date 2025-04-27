@@ -1,0 +1,187 @@
+/* *{
+    box-sizing: border-box;
+} */
+
+/* Header */
+.content_header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+}
+.content-header-logo{
+    flex-basis: 10%;
+}
+.content-header-logo img{
+    width: 85%;
+}
+.content-menu{
+    flex-basis: 65%;
+}
+.content-menu ul {
+    display: flex;
+    list-style: none;
+    /* justify-content: space-around; */
+    gap: 10%;
+}
+.content-menu ul li a {
+    text-decoration: none;
+    color: aqua;
+    font-weight: bold;
+    font-size: 17px;
+}
+
+.content-search{
+    flex-basis: 20%;
+    border-radius: 1%;
+    margin-right:1% ;
+}
+.content-search form button{
+    background-color: black;
+    color: whitesmoke;
+}
+
+/* Content body */
+.content_first{
+    display: flex;
+}
+
+.left-banner{
+    flex-basis: 60%;
+    margin-left: 10px;
+}
+.left-banner img{
+    width: 96%;
+}
+.right-banner{
+    flex-basis: 40%;
+    margin-top: -17px;
+}
+.right-banner h1{
+    color: aqua;
+}
+.price{
+    color: orange;
+}
+
+.Room-infor{
+    margin-left: 10px;
+}
+.Room{
+    display: flex;
+}
+.Room img{
+    width: 25%;
+    height: 100px;
+}
+
+/* Content title */
+.content-title{
+    text-align: center;
+    color: aqua;
+    margin-bottom: 10px;
+}
+.content-hotel-booking{
+    display: flex;
+}
+.title-left-img{
+    flex-basis: 50%;
+}
+.title-left-img img{
+    width: 100%;
+}
+.title-infor-booking{
+    flex-basis: 50%;
+}
+.title-tourist{
+    text-align: center;
+    color: aqua;
+}
+
+.title-infor-booking{
+    flex-basis: 50%;
+    margin-left: 10px;
+    /* margin-top: -10px; */
+    background-color: #E8E4E3;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.title-infor-booking h3{
+    text-align: center;
+    color: orange;
+}
+.content-tour{
+    width: 100%;
+}
+
+.book-tour {
+    width: 20%;
+    justify-content: center;
+    text-align: center;
+    background-color: orange;
+    color: white;
+    margin: 30px auto;
+    border-radius: 5px ;
+}
+
+.content-tour {
+    margin-left: 20px;
+    margin-bottom: 15px;
+}
+.content-tour label{
+    min-width: 30%;
+    display: inline-block;
+}
+.content-tour input ,
+.content-tour select{
+    width: 50%;
+    padding: 5px;
+}
+.title-feedback {
+    display: flex; /* Sắp xếp các phần tử theo hàng ngang */
+    justify-content: space-around; /* Khoảng cách đều giữa các phần tử */
+    align-items: center; /* Căn giữa các phần tử theo chiều dọc */
+    flex-wrap: wrap; /* Đảm bảo bố cục đẹp khi cửa sổ thu nhỏ */
+    gap: 20px; /* Khoảng cách giữa các phần tử */
+}
+
+.title-feedback div {
+    text-align: center; /* Căn giữa nội dung bên trong */
+    max-width: 200px; /* Đặt kích thước tối đa cho từng ô */
+}
+
+.title-feedback div > img:first-of-type {
+    width: 100px; /* Đặt chiều rộng cho ảnh khách hàng */
+    height: 100px; /* Đặt chiều cao cho ảnh khách hàng */
+    border-radius: 50%; /* Làm ảnh tròn */
+    object-fit: cover; /* Đảm bảo ảnh không bị méo */
+    border: 2px solid #ccc; /* Thêm viền xung quanh ảnh (tuỳ chọn) */
+}
+
+
+.title-feedback h3 {
+    margin-top: 10px; /* Thêm khoảng cách giữa ảnh và tên */
+    font-size: 1.2em; /* Tăng kích thước chữ của tên */
+}
+
+.title-feedback p {
+    font-size: 0.9em; /* Kích thước chữ cho nội dung feedback */
+    color: #555; /* Màu chữ xám nhạt */
+}
+
+
+.footer{
+    background-color: aqua;
+    color: white;
+}
+
+.footer_2_infor{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.copyright{
+    text-align: center;
+    padding-bottom: 20px;
+}

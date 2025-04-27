@@ -1,0 +1,42 @@
+body{
+    max-width: 1900px;
+    margin: 0;
+}
+.content-header{
+    display: flex;
+    justify-content: center;
+    /* width: 10%; */
+}
+.content-header div{
+    width: 15%;
+    margin: 20px 0;
+}
+.content-header div img{
+    width: 100%;
+}
+.navbar{
+    display: flex;
+    justify-content: center;
+    margin: 0 -15px;
+}
+
+.Famous-lanmarks h2{
+    text-align: center;
+    color: aqua;
+    margin: 0 20px;
+}
+.img-Lanmarks img{
+    width: 100%;
+}
+
+.vuong-family{
+    margin: 20px 0;
+}
+.text-HaGiang h2{
+    text-align: center;
+    color: aqua;
+}
+.text-HaGiang p{
+    text-align: justify;
+    font-size: 17px;
+}

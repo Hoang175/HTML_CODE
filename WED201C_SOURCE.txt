@@ -1,0 +1,264 @@
+/----------HTML----------/
+=> Thẻ tiêu đề : h1, h2,h3,…
+<h1></h1>
+
+=> Thẻ paragraph : dùng để định nghĩa một đoạn văn 
+<p></p>
+
+=> Thẻ br : xuống dòng
+<br>
+
+
+=> Thẻ div : + tạo cấu trúc và tổ chức nội dung
+          + dùng để nhóm các phần tử HTML lại với nhau
+<div></div>
+
+
+=> Class : + dùng để đặt tên cho một hoặc nhiều lớp (class)
+        + giúp áp dụng kiểu dáng CSS hoặc thao tác với JavaScript  cho các phần tử có cùng một class
+<div class = ""></div>
+
+
+=> Img : thẻ ảnh
+<img src="images/anh1.jpg" alt="mô tả văn bản thay thế">
+
+=> Thẻ a : được dùng để tạo liên kết
+<a href="link">tên của link</a>
+
+
+=> Thẻ ul : dùng để tạo danh sách không có thứ tự
+<ul>
+    <li>b</li>
+    <li>c</li>
+    <li>a</li>
+</ul>
+
+
+=> Thẻ ol : dùng dể tạo danh sách có thứ tự
+<ol>
+    <li>b</li>
+    <li>a</li>
+    <li>c</li>
+</ol>
+
+=> Thẻ table : tạo ra 1 cái bảng
+Thẻ tr : tạo ra 1 cái row
+Thẻ td : tạo ra 1 cái ô
+ <div>
+        <table border="1" cellpadding="10" >
+            <tr>
+                <td>a</td>
+                <td>a1</td>
+            </tr>
+            <tr>
+                <td>b</td>
+            </tr>
+            <tr>
+                <td>c</td>
+            </tr>
+        </table>
+</div>
+
+border  : chỉ định độ rộng của đường viền bảng. 
+
+cellpadding : chỉ định khoảng cách giữa nội dung của ô và đường viền của ô.
+
+cellspacing : chỉ định khoảng cách giữa các ô. 
+
+width : chỉ định chiều rộng của bảng. 
+
+height : chỉ định chiều cao của bảng.
+
+=> Thẻ hr : dùng để tạo một đường kẻ ngang trên trang web
+hr {
+    border-width: 10px;
+    border-style: dotted none none;
+    width: 38px;
+    color: #2dc69d;
+}
+
+/----------css----------/
+=> Classs : format code css
+<style>
+	    .item{
+	          color: red; => COLOR
+	          font-weight: bold; => CHỮ ĐẬM
+	          font-size: 30px;  => SIZE CHỮ
+	          font-family: 'Courier New', Courier, monospace; => FORMAT CHỮ
+	          font-style: italic; => CHỮ NGHIÊM
+	
+			 text-align: center; => CHỮ TRUNG TÂM
+	     }
+	        
+
+		.part4 a{
+		        text-decoration: none;
+		 }
+		
+		
+		 .part4>div>a{
+		        color: red;
+		 }
+		
+</style>
+
+=> Thẻ li : dùng để định nghĩa một phần tử trong danh sách
+.list_item li:nth-child(2){
+            color: blue;
+}
+
+=> Px : + đơn vị đo tuyệt đối
+        + khi muốn kích thước phần tử cố định, không thay đổi với kích thước màn hình.
+
+% : + đơn vị đo tương đối
+    + khi muốn phần tử có kích thước linh hoạt, thay đổi theo kích thước của phần tử cha.
+
+=> Display : flex : dùng để ngang hàng
+.header{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+=>+ margin tạo ra khoảng cách bên ngoài phần tử (xung quanh phần tử)
++ padding tạo khoảng cách bên trong phần tử (giữa nội dung và biên của phần tử)
++ Border : viền liền mạch
+    border-bottom: 2px solid black;
+    border-bottom: 2px dotted black;
+    padding: 2rem 0;
+    border-bottom: 2px dotted black;
+
+=> Positive : absolute : dùng để tách div cha và div con (trực tiếp thông qua cha Positive : relative)
+
+=> opacity : độ mờ đục
+opacity: 0.7;
+
+=> container-fluid : ko có thanh ngang nữa
+<div class="container-fluid">
+
+=> Mobile : ví dụ về screen mobile
+/*  */
+@media screen and (max-width: 768px) {
+    #header {
+      display: block; 
+      text-align: center;
+    }
+    #header .container-div1 img{
+        width: 30%; 
+        margin-bottom: 1%;
+    }
+    #header .container-div2{
+        margin-left: 8%;
+        margin-bottom: 1%;
+    }
+    #header .container-div2 div{
+        width: 287%;
+    }
+    #header .container-div3 h3{
+        margin-left: 5%;
+        font-size: 18px;
+        margin-bottom: 1%;
+    }
+  }
+
+=> flex-wrap: wrap : dùng để giúp các phần tử trong một container "gói lại" khi không đủ không gian.
+.best-seller{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+=> Box-shadow: y - x - length all screen(viền)
+.best-seller-img img{
+    border: 3px solid #9d9999;
+    box-shadow: 3px 3px 3px #c9c7c7;
+}
+
+
+.header img{
+    border-radius: 50%;
+    border: 1px solid #d4d4d4;
+    box-shadow: 0px 0px 2px 2px #d4d4d4;
+    margin-right: 165px;
+}
+
+
+=> Justify-content : center căn giữa theo chiều ngang(Nhưng phải dùng display : flex trực tiếp)
+align-items: center căn giữa theo chiều dọc
+	align-items: center;
+	justify-content: center;
+
+=> list-style: none (Giúp ẩn dấu chấm đen)
+text-decoration: none (Giúp ẩn cái gạch chân của thẻ a)
+
+=> Class : . Dùng nhiều lần
+Id : # Chỉ dùng 1 lần
+
+=> Vw : Đơn vị tương đối
+#content-header3 {
+        width: 70vw; 
+        margin: 0px auto; => t-b | tr-p => auto đứng giữa
+    }
+/----------JAVASCRIPT----------/
+=> Form of Html và JavaScript 
+<form action="">
+            <div class="form-example">
+                <label for="name">Tour</label>
+                <select id="favorite-tour" onchange="tourSelect()">
+                    <option value="100">TPHCM-Mui Ne</option>
+                    <option value="150">TPHCM-Ca Mau</option>
+                    <option value="90">TPHCM-Vung Tau</option>
+                    <option value="120">TPHCM-DaLat</option>
+                    <option value="100">TPHCM-Ho Tram</option>
+                </select>
+                <label class="label-check" style="color: orange;" id="price-tour">(ra màn hình)</label>
+            </div> 
+            <div class="form-example">
+                <label for="email">Number of people</label>
+                <input type="email" name="email" id="total-people" required />
+            </div>
+
+            <div class="book-tour" onclick ="calTotal()">
+                <button>Book Tour</button>
+            </div>
+
+            <div class="total" id="total">(ra màn hình)</div>
+</form>
+
+Get and Set
+function calTotal(){
+    // Get pricce
+    let option = document.querySelector("#favorite-tour");
+    // Get total people
+    let totalPeople = document.querySelector("#total-people");
+    // Cal total amount
+    let totalAmount = option.value * totalPeople.value
+    // Get div total amount
+    console.log(totalAmount);
+    let divTotalAmount = document.querySelector("#total");
+    
+    // Set innerText
+    divTotalAmount.innerText = "Total amount : " + totalAmount + "$"
+}
+
+
+=> Contact
+<script>
+    document.addEventListener("DOMContentLoaded", function () {
+        var contactLink = document.querySelector("#nav-menu li:last-child a");
+        contactLink.addEventListener("click", function (event) {
+            event.preventDefault();
+            var phoneNumber = prompt("Enter your phone:");
+            if (phoneNumber) {
+                alert(
+                    "The store will contact you as soon as possible via phone number: " +
+                    phoneNumber
+                );
+            } else {
+                alert("You didn't enter a phone number.");
+            }
+        });
+    });
+</script>
+
+
+
+

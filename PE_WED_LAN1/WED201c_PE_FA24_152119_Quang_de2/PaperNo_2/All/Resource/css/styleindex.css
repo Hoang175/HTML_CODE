@@ -1,0 +1,118 @@
+.logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+}
+
+.navbar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.left-side-border{
+    margin: 0;
+    border: 2px solid #DEF5FA ;
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.left-side-border  img{
+    width: 10%;
+}
+.left-side-border h4{
+    background-color: #E1EDED;
+    height: 100%;
+    color: aqua;
+    font-size: 16px; 
+    margin: 0px 0px;
+   
+}
+.left-side-border span{
+    margin-right: 15px;
+}
+
+.left-side-border p {
+    margin-left: 10px;
+
+}
+.right-side h2{
+    text-align: center;
+    color: #7FD2DE;
+    margin-bottom: 20px;
+}
+
+.right-side-img1 img{
+    border-radius: 100%;
+    display: grid;
+    justify-self:center;
+    align-self: center;
+    
+}
+.right-side-img1 h4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.right-side-content{
+    border: 2px solid #DEF5FA ;
+    width: 100%;
+}
+
+.right-side-img2 img{
+    grid-column: 1/4;
+    width: 100%;
+    margin-bottom: 10px;
+}
+.right-side-img2 p{
+    width: 100%;
+    grid-column: 1/4;
+    padding: 10px;
+    text-align: justify;
+}
+.right-side-img2 h4{
+    grid-column: 1/4;
+    margin: 10px;
+    color: #F4A77D;
+}
+.buy{
+    grid-column: 2/3;
+    justify-self: center;
+    background-color: #1CB4E3 ;
+    padding: 10px;
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    border-radius: 5px;
+    color: white;
+    margin: 10px;
+}
+.right-side-content{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    
+}
+.right-side-img3 h4{
+    color: #F4A77D;
+    text-align: center;
+}
+.right-side-img3 {
+    display: grid;
+    justify-self:center;
+    align-self: center;
+}
+
+.right-side-img3 img{
+    display: grid;
+    justify-self:center;
+    align-self: center;
+    width: 100%;
+}
+
+.footer-content{
+    margin-top: 20px;
+    background-color: #10885A;
+    text-align: center;
+    padding: 10px;
+    color: white;
+}

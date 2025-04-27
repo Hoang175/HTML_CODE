@@ -1,0 +1,54 @@
+.Text-center{
+    border: 1px solid rebeccapurple;
+    text-align: center;
+}
+
+.Center{
+    width: 200px;
+    border: 1px solid black;
+    margin: -15px auto 0px;
+}
+body{
+    background-color: aqua;
+}
+.img{
+    display: block ;
+    margin: 30px auto;
+    width: 400px ;
+    height: auto;
+    
+}
+.container{
+    margin-right: 20%;
+    padding: 20px;
+    display: flex ;
+    width: 600px;
+    height: 300px;
+    background-color: #ddd;
+    /* flex-direction: row-reverse; */
+    /* flex-wrap: wrap-reverse; */
+    justify-content: flex-start; /* Theo truc OX*/
+    align-items: center; /* Can theo truc Oy */
+}
+.item{
+    width: 100px;
+    height: 100px;
+}
+.red{
+    background-color: red;
+    order: 2;
+ flex-grow: 1;
+}
+.blue{
+    flex-basis: 200px;
+    background-color: blue;
+    order: 3;
+}
+.green{
+    background-color: green;
+    order: 1;
+}
+.yellow{
+    background-color: yellow;
+    flex-grow: 2;
+}

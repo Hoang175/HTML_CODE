@@ -1,0 +1,17 @@
+/* Defaut */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.header{
+    position: relative;
+    border: 1px solid red;
+    background-color: red;
+    width: 100px;
+    top: 500px;
+    left: 1214px;
+}
+.content{
+    height: 2000px          ;
+}ss
